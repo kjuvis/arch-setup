@@ -20,4 +20,4 @@ Um das Skript direkt aus dem Repository zu klonen und auszuführen, kannst du fo
 ```bash
 git clone https://github.com/kjuvis/arch-setup.git 
 cd arch-setup 
-sh arch-post-install.sh
+sh setup.sh
