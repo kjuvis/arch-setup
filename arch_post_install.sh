@@ -42,6 +42,9 @@ EOF
 
 #source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+yay -S --noconfirm zsh-theme-powerlevel10k-git
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
 echo "=> Installiere Alacritty-Konfiguration..."
   mkdir -p ~/.config/alacritty
   cp ./config/alacritty/alacritty.toml ~/.config/alacritty/
@@ -52,10 +55,10 @@ echo "=> Installiere Fastfetch-Konfiguration..."
   cp ./config/fastfetch/config.jsonc ~/.config/fastfetch/
   echo "✓ Fastfetch-Konfiguration kopiert."
 
-#echo "=> zsh config"
- # cp ./config/zsh/.zshrc ~/
- # cp ./config/zsh/.p10k.zsh ~/
- # echo "fertig"
+echo "=> zsh config"
+ cp ./config/zsh/.zshrc ~/
+ cp ./config/zsh/.p10k.zsh ~/
+ echo "fertig"
 
 # 8. Flatpak Repository hinzufügen (flathub)
 echo "Füge Flathub Flatpak Repository hinzu..."
