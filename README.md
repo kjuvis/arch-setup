@@ -18,4 +18,6 @@ Dieses Repository enthält ein Post-Installations-Skript für Arch Linux mit KDE
 Um das Skript direkt aus dem Repository zu klonen und auszuführen, kannst du folgenden Einzeiler verwenden:
 
 ```bash
-git clone https://github.com/kjuvis/arch-setup.git && cd arch-setup && sudo sh arch-post-install.sh
+git clone https://github.com/kjuvis/arch-setup.git 
+cd arch-setup 
+sh arch-post-install.sh
