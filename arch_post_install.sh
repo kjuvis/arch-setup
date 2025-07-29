@@ -52,10 +52,10 @@ echo "=> Installiere Fastfetch-Konfiguration..."
   cp ./config/fastfetch/config.jsonc ~/.config/fastfetch/
   echo "✓ Fastfetch-Konfiguration kopiert."
 
-echo "=> zsh config"
-  cp ./config/zsh/.zshrc ~/
-  cp ./config/zsh/.p10k.zsh ~/
-  echo "fertig"
+#echo "=> zsh config"
+ # cp ./config/zsh/.zshrc ~/
+ # cp ./config/zsh/.p10k.zsh ~/
+ # echo "fertig"
 
 # 8. Flatpak Repository hinzufügen (flathub)
 echo "Füge Flathub Flatpak Repository hinzu..."
