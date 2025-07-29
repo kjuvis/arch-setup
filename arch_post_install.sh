@@ -8,7 +8,7 @@ sudo pacman -Syu --noconfirm
 # 2. Basis-Pakete installieren (inkl. wichtige Tools ohne NM, Firefox, PulseAudio, pavucontrol)
 echo "Installiere Basis-Pakete und wichtige Programme..."
 
-sudo pacman -S --noconfirm --needed git base-devel zsh flatpak ufw alacritty kdeconnect vim htop wget curl neofetch unzip tar gzip fastfetch 
+sudo pacman -S --noconfirm --needed git base-devel zsh flatpak ufw alacritty kdeconnect vim htop wget curl neofetch unzip tar gzip fastfetch vlc 
 
 # 3. Yay installieren (AUR Helper)
 if ! command -v yay &> /dev/null; then
