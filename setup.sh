@@ -45,15 +45,16 @@ EOF
 yay -S --noconfirm zsh-theme-powerlevel10k-git
 echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
+echo "=> Installiere Fastfetch-Konfiguration..."
+  mkdir -p ~/.config/fastfetch
+  cp ./config/fastfetch/config.jsonc ~/.config/fastfetch/
+  echo "✓ Fastfetch-Konfiguration kopiert."
+
 echo "=> Installiere Alacritty-Konfiguration..."
   mkdir -p ~/.config/alacritty
   cp ./config/alacritty/alacritty.toml ~/.config/alacritty/
   echo "✓ Alacritty-Konfiguration kopiert."
 
-echo "=> Installiere Fastfetch-Konfiguration..."
-  mkdir -p ~/.config/fastfetch
-  cp ./config/fastfetch/config.jsonc ~/.config/fastfetch/
-  echo "✓ Fastfetch-Konfiguration kopiert."
 
 echo "=> zsh config"
  cp ./config/zsh/.zshrc ~/
