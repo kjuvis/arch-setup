@@ -1,5 +1,7 @@
 # Arch Linux Post-Install Skript
 
+
+Für secureboot wiki: https://ewilcox.blogspot.com/2025/01/how-to-enableset-up-secure-boot-on-arch.html?m=1
 Dieses Repository enthält ein Post-Installations-Skript für Arch Linux mit KDE, das wichtige Programme installiert, die Firewall konfiguriert, Themes setzt und mehr.
 
 ## Features
